@@ -13,7 +13,7 @@ import ohmImg from "../assets/ohm.png";
 export const PROJECT_LISTS = [
   {
     id: "p1",
-    category: "professional",
+    category: "Professional",
     year: "2019",
     title: "vRENT",
     image: vrentImg,
@@ -25,7 +25,7 @@ export const PROJECT_LISTS = [
   },
   {
     id: "p2",
-    category: "professional",
+    category: "Professional",
     year: "2019",
     title: "Direct Sidekick",
     image: dskImg,
@@ -97,7 +97,7 @@ export const PROJECT_LISTS = [
     demo: "CURRENTLY BROWSING",
     // source_code: "https://github.com/asifsamy/mensa-online-v2",
     libraries:
-      "React, React-Icons, React-Router, React-Player, EmailJS for sending email, React-Toastify for Toast Notifications, React-Scroll for smooth scrolling",
+      "React, React-Icons, React-Player, EmailJS for sending email, React-Toastify for Toast Notifications, React-Scroll for smooth scrolling",
   },
   {
     id: "p8",
