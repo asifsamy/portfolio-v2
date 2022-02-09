@@ -1,0 +1,24 @@
+.footer {
+  /* top, right, bottom, left */
+  padding: 0 0 1rem 0;
+  /* margin: 5rem; */
+  color: rgb(141, 133, 133);
+}
+
+.footer p {
+  font-size: 0.78rem;
+  font-weight: 100;
+  word-spacing: 0.15rem;
+}
+
+.footer a {
+  /* padding: 0 1rem -0.5rem 1rem; */
+  margin: 0 1.2rem -0.4rem 1.2rem;
+}
+
+@media screen and (max-width: 365px) {
+  .footer a {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+}

@@ -1,0 +1,26 @@
+.filter {
+  margin: 0.625rem;
+}
+
+.filter-btn {
+  /* background-color: #18467a; */
+  background-color: #fff;
+  border: 1px solid rgb(214, 213, 213);
+  /* color: white; */
+  padding: 8px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.filter-btn:hover {
+  color: #18467a;
+}
+
+.filter-btn:active,
+.filter-btn.active {
+  background-color: #4a6d96;
+  color: #fff;
+}

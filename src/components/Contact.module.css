@@ -1,0 +1,167 @@
+.contact {
+  /* top, right, bottom, left */
+  padding: 0.5rem 1rem 0 1rem;
+  margin: 5rem;
+  color: rgb(94, 91, 91);
+}
+
+.content {
+  display: flex;
+  margin-bottom: -3rem;
+}
+
+.info {
+  padding: 5rem 1rem 5rem 7rem;
+}
+
+.info h1 {
+  font-size: 2.1rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  word-spacing: 0.375rem;
+}
+
+.info p {
+  font-size: 0.8rem;
+}
+
+.sub-info {
+  font-weight: 500;
+  word-spacing: 0.2rem;
+  padding: 1.563rem 0 0 0.75rem;
+  display: flex;
+}
+
+.sub-info p {
+  /* margin: 0; */
+  margin-top: -0.188rem;
+  padding-left: 0.625rem;
+  font-size: 0.85rem;
+}
+
+.content form {
+  display: block;
+  padding: 2rem 1rem 5rem 10rem;
+}
+
+.form-control {
+  margin: 20px 0;
+  display: block;
+}
+
+.form-control input {
+  width: 28rem;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: none;
+  background-color: hsl(214, 8%, 83%);
+  font-size: 15px;
+}
+
+.form-control textarea {
+  width: 28rem;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: none;
+  background-color: hsl(214, 8%, 83%);
+  font-size: 15px;
+}
+
+.content button {
+  width: 28rem;
+  padding: 12px 20px;
+  margin: 20px 0;
+  box-sizing: border-box;
+  display: block;
+  border-radius: 5px;
+  border: none;
+  background-color: hsl(214, 63%, 47%);
+  font-size: 15px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.invalid input {
+  border: 1px solid #b40e0e;
+  background-color: #fddddd;
+}
+
+.invalid input:focus {
+  border-color: #ff8800;
+  background-color: #fbe8d2;
+}
+
+.error-text {
+  color: #b40e0e;
+}
+
+@media screen and (max-width: 1200px) {
+  .form-control input {
+    width: auto;
+  }
+  .form-control textarea {
+    width: auto;
+  }
+  .content button {
+    width: auto;
+  }
+  .content form {
+    padding: auto;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .contact {
+    padding: auto;
+    margin: auto;
+    margin-bottom: 5rem;
+  }
+  .content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .form-control input {
+    width: auto;
+  }
+  .form-control textarea {
+    width: auto;
+  }
+  .content button {
+    width: auto;
+  }
+  .content form {
+    padding: 0 0 5rem 0;
+  }
+  .info {
+    padding: 0;
+    margin: 2rem;
+    text-align: center;
+  }
+  .info h1 {
+    font-size: auto;
+    font-weight: auto;
+    word-spacing: auto;
+  }
+  .info p {
+    font-size: 0.8rem;
+  }
+
+  .sub-info {
+    font-weight: auto;
+    word-spacing: auto;
+    padding: auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  .sub-info p {
+    /* margin: 0; */
+    padding-left: auto;
+    font-size: auto;
+    text-align: center;
+    align-items: center;
+  }
+}
