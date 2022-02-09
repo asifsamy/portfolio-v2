@@ -95,7 +95,7 @@ export const PROJECT_LISTS = [
     description:
       "This is my personal portfolio application which is being accessed currently. This application is fully responsive and developed as single page application. It does not have any backend part. data has been wriiten manually in a separated JS file (as arrays of objects)",
     demo: "CURRENTLY BROWSING",
-    // source_code: "https://github.com/asifsamy/mensa-online-v2",
+    source_code: "https://github.com/asifsamy/portfolio-v2",
     libraries:
       "React, React-Icons, React-Player, EmailJS for sending email, React-Toastify for Toast Notifications, React-Scroll for smooth scrolling",
   },
