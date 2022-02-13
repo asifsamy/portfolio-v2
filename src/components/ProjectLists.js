@@ -39,15 +39,15 @@ export const PROJECT_LISTS = [
     id: "p3",
     category: "Academic",
     year: "2021",
-    title: "Transport Germany",
-    image: transportImg,
+    title: "Mensa-App",
+    image: mensaImg,
     description:
-      "Transport Germany a simple web app that uses the public transport API of DB (https://v5.db.transport.rest/api.html) to search through stops. When showing results, it shows which transport options are available in the resulting stop(s). Example transport options are: bus/tram/ferry/suburban/express/regional. If the user selects a stop, it routes the user to the detail page of that stop where the user can see the departures from the stop. Users are able to mark some stops favorite so that they can quickly access them instead of searching every time. This information are in the client-side only.",
-    demo: "https://asifsamy.github.io/transport-germany/",
-    source_code: "https://github.com/asifsamy/transportation-de",
-    video_url: "https://youtu.be/TpIPrIMUB6g",
+      "The Studierendenwerk Düsseldorf offers a variety of modern catering options in the canteens and cafeterias or bistros. The service depends on the needs of the guests. Mensa App is developed to help the cafeteria to make better-informed decisions for the food they provide. The web application of this system is also used to maintain restaurant data, manage a reservation, perform food ordering, payment, and reporting.",
+    demo: "https://mensa-app-80da4.web.app/",
+    source_code: "https://github.com/asifsamy/food-mensa",
+    video_url: "https://youtu.be/RoOhntoVu9E",
     libraries:
-      "React, public transport API of DB (https://v5.db.transport.rest/api.html), Javascript, Bootstrap, and Some Others vendor",
+      "React, React-Helmet, React-Router, React-Icons, Context API for Cart and Authentication functionalities, Firebase for database and Hosting",
   },
   {
     id: "p4",
@@ -77,14 +77,16 @@ export const PROJECT_LISTS = [
   {
     id: "p6",
     category: "Academic",
-    year: "2020",
-    title: "Food Mensa",
-    image: mensaImg,
+    year: "2021",
+    title: "Transport Germany",
+    image: transportImg,
     description:
-      "The Studierendenwerk Düsseldorf offers a variety of modern catering options in the canteens and cafeterias or bistros. The service depends on the needs of the guests. Mensa App is developed to help the cafeteria to make better-informed decisions for the food they provide. The web application of this system is also used to maintain restaurant data, manage a reservation, perform food ordering, payment, and reporting.",
-    source_code: "https://github.com/asifsamy/mensa-online-v2",
+      "Transport Germany a simple web app that uses the public transport API of DB (https://v5.db.transport.rest/api.html) to search through stops. When showing results, it shows which transport options are available in the resulting stop(s). Example transport options are: bus/tram/ferry/suburban/express/regional. If the user selects a stop, it routes the user to the detail page of that stop where the user can see the departures from the stop. Users are able to mark some stops favorite so that they can quickly access them instead of searching every time. This information are in the client-side only.",
+    demo: "https://asifsamy.github.io/transport-germany/",
+    source_code: "https://github.com/asifsamy/transportation-de",
+    video_url: "https://youtu.be/TpIPrIMUB6g",
     libraries:
-      "FrontEnd Framework : Vue, Backend Framework : Django REST, Database : PostgreSQL",
+      "React, public transport API of DB (https://v5.db.transport.rest/api.html), Javascript, Bootstrap, and Some Others vendor",
   },
   {
     id: "p7",

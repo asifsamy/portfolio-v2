@@ -42,6 +42,12 @@
   cursor: pointer;
 }
 
-/* .modal {
-  z-index: "30";
-} */
+@media screen and (max-width: 600px) {
+  .project-item p {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    text-align: justify;
+    font-size: 15px;
+    font-weight: 500;
+  }
+}

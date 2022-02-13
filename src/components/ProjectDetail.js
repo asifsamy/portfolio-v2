@@ -24,11 +24,13 @@ const ProjectDetail = (props) => {
   //   }
   // });
 
+  const { projectId } = props;
+
   useEffect(() => {
     const fetchProject = () => {
       try {
         PROJECT_LISTS.forEach((project) => {
-          if (project.id === props.projectId) {
+          if (project.id === projectId) {
             setProjectItem(project);
           }
         });
@@ -38,7 +40,7 @@ const ProjectDetail = (props) => {
     };
 
     fetchProject();
-  }, []);
+  }, [projectId]);
 
   const projectContent = (
     <div className={projectDetailStyles["project-item"]}>
@@ -51,7 +53,7 @@ const ProjectDetail = (props) => {
       )}
       <div className={projectDetailStyles["tech-spec"]}>
         <h4 className="centered">
-          USED TECHNOLOGIES (Packeges, Libraries, etc)
+          USED TECHNOLOGIES (Packeges, Libraries, Concepts etc)
         </h4>
         <p className="centered">{projectItem.libraries}</p>
       </div>
