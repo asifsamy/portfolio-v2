@@ -14,7 +14,7 @@ export const PROJECT_LISTS = [
   {
     id: "p1",
     category: "Professional",
-    year: "2019",
+    year: 2019,
     title: "vRENT",
     image: vrentImg,
     description:
@@ -26,7 +26,7 @@ export const PROJECT_LISTS = [
   {
     id: "p2",
     category: "Professional",
-    year: "2019",
+    year: 2019,
     title: "Direct Sidekick",
     image: dskImg,
     description:
@@ -38,7 +38,7 @@ export const PROJECT_LISTS = [
   {
     id: "p3",
     category: "Academic",
-    year: "2021",
+    year: 2021,
     title: "Mensa-App",
     image: mensaImg,
     description:
@@ -52,7 +52,7 @@ export const PROJECT_LISTS = [
   {
     id: "p4",
     category: "Personal",
-    year: "2021",
+    year: 2021,
     title: "Real Estate",
     image: realEstateImg,
     description:
@@ -65,7 +65,7 @@ export const PROJECT_LISTS = [
   {
     id: "p5",
     category: "Academic",
-    year: "2020",
+    year: 2020,
     title: "Jober Desk",
     image: joberDeskImg,
     description:
@@ -77,7 +77,7 @@ export const PROJECT_LISTS = [
   {
     id: "p6",
     category: "Academic",
-    year: "2021",
+    year: 2021,
     title: "Transport Germany",
     image: transportImg,
     description:
@@ -91,7 +91,7 @@ export const PROJECT_LISTS = [
   {
     id: "p7",
     category: "Personal",
-    year: "2022",
+    year: 2022,
     title: "Portfolio",
     image: portfolioImg,
     description:
@@ -104,7 +104,7 @@ export const PROJECT_LISTS = [
   {
     id: "p8",
     category: "Personal",
-    year: "2018",
+    year: 2018,
     title: "Hat Bazaar",
     image: hatBazarImg,
     description:
@@ -117,7 +117,7 @@ export const PROJECT_LISTS = [
   {
     id: "p9",
     category: "Academic",
-    year: "2017",
+    year: 2017,
     title: "Custom Shop",
     image: customShopImg,
     description:
@@ -130,7 +130,7 @@ export const PROJECT_LISTS = [
   {
     id: "p10",
     category: "Academic",
-    year: "2016",
+    year: 2016,
     title: "Super Shop",
     image: superShopImg,
     description:
@@ -142,7 +142,7 @@ export const PROJECT_LISTS = [
   {
     id: "p11",
     category: "Academic",
-    year: "2016",
+    year: 2016,
     title: "Hotel Management",
     image: ohmImg,
     description:

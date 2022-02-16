@@ -1,16 +1,20 @@
 import styles from "./FilterButton.module.css";
 
-const FilterButton = ({ button, filter, activeButton }) => {
+const FilterButton: React.FC<{
+  button: string[];
+  filter: (category: string) => void;
+  activeButton: string;
+}> = (props) => {
   return (
     <div className={`${"centered"} ${styles.filter}`}>
-      {button.map((category, i) => {
+      {props.button.map((category, i) => {
         return (
           <button
             key={i}
             type="button"
-            onClick={() => filter(category)}
+            onClick={() => props.filter(category)}
             className={`${styles["filter-btn"]} ${
-              category === activeButton && styles.active
+              category === props.activeButton && styles.active
             }`}
           >
             {category}

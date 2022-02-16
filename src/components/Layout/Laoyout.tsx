@@ -3,7 +3,7 @@ import Header from "./Header";
 import Footer from "./Footer";
 // import Navbar from "./Navbar";
 
-const Layout = (props) => {
+const Layout: React.FC = (props) => {
   return (
     <Fragment>
       <Header />

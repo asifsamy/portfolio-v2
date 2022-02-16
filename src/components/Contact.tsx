@@ -7,12 +7,12 @@ import "react-toastify/dist/ReactToastify.css";
 
 import Card from "./UI/Card";
 import contactStyles from "./Contact.module.css";
-import { Fragment } from "react";
+import React, { Fragment } from "react";
 
 // toast.configure();
 
-const isNotEmpty = (value) => value.trim() !== "";
-const isEmail = (value) =>
+const isNotEmpty = (value: string) => value.trim() !== "";
+const isEmail = (value: string) =>
   value.match(
     /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/
   );
@@ -59,7 +59,7 @@ const Contact = () => {
     formIsValid = true;
   }
 
-  const formSubmitHandler = (event) => {
+  const formSubmitHandler = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     if (!formIsValid) {
       return;
@@ -69,7 +69,7 @@ const Contact = () => {
       .sendForm(
         "service_x99ip57",
         "template_71vebom",
-        event.target,
+        event.currentTarget,
         "user_wDtFNHZTDhxHpoCO08gNH"
       )
       .then(
@@ -181,7 +181,6 @@ const Contact = () => {
                   onBlur={messageInputBlurHandler}
                   value={messageInputValue}
                   placeholder="Message"
-                  maxLength="1000"
                 />
                 {messageHasError && (
                   <p className={contactStyles["error-text"]}>

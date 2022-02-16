@@ -1,6 +1,7 @@
 import classes from "./Card.module.css";
 
-const Card = (props) => {
+const Card: React.FC<{ classProps?: string }> = (props) => {
+  // console.log(typeof props.classProps);
   return (
     <div
       className={`${classes.card} ${props.classProps ? props.classProps : ""}`}

@@ -5,6 +5,7 @@ import {
   SiPhp,
   SiLaravel,
   SiJavascript,
+  SiTypescript,
   SiReact,
   SiRedux,
   SiHtml5,
@@ -22,6 +23,7 @@ const MY_SKILLS = [
   { title: "CSS", name: <SiCss3 /> },
   { title: "Bootstrap", name: <SiBootstrap /> },
   { title: "Javascript", name: <SiJavascript /> },
+  { title: "Typescript", name: <SiTypescript /> },
   { title: "React", name: <SiReact /> },
   { title: "Redux", name: <SiRedux /> },
   { title: "Python", name: <SiPython /> },
@@ -33,7 +35,7 @@ const MY_SKILLS = [
   { title: "PostgreSQL", name: <SiPostgresql /> },
 ];
 
-const MySkills = (props) => {
+const MySkills: React.FC<{ title: string; name: any }> = (props) => {
   return (
     <Card classProps={classes["focus-items"]}>
       <div className={`${"centered"} ${classes.content}`}>

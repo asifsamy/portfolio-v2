@@ -1,46 +1,29 @@
-import { Fragment, useEffect, useState } from "react";
-// import ReactModal from "react-modal";
+import { Fragment, useState } from "react";
 import ReactPlayer from "react-player";
 
 import projectDetailStyles from "./ProjectDetail.module.css";
 import { PROJECT_LISTS } from "./ProjectLists";
 import Modal from "./UI/Modal";
 
-// ReactModal.setAppElement("#overlays");
+let projectItem: any;
 
-const ProjectDetail = (props) => {
+const ProjectDetail: React.FC<{
+  projectId: string;
+  onShowProjectDetail: any;
+}> = (props) => {
   const [isModalOn, setIsModalOn] = useState(true);
-  const [projectItem, setProjectItem] = useState({});
+  // const [projectItem, setProjectItem] = useState<object>({});
 
   const closeModalHandler = () => {
     setIsModalOn(false);
     props.onShowProjectDetail(false);
   };
 
-  // let projectItem;
-  // PROJECT_LISTS.forEach((project) => {
-  //   if (project.id === props.projectId) {
-  //     projectItem = project;
-  //   }
-  // });
-
-  const { projectId } = props;
-
-  useEffect(() => {
-    const fetchProject = () => {
-      try {
-        PROJECT_LISTS.forEach((project) => {
-          if (project.id === projectId) {
-            setProjectItem(project);
-          }
-        });
-      } catch (err) {
-        console.log(err);
-      }
-    };
-
-    fetchProject();
-  }, [projectId]);
+  PROJECT_LISTS.forEach((project) => {
+    if (project.id === props.projectId) {
+      projectItem = project;
+    }
+  });
 
   const projectContent = (
     <div className={projectDetailStyles["project-item"]}>

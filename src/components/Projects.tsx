@@ -13,15 +13,14 @@ const allCategories = [
   ...new Set(PROJECT_LISTS.map((project) => project.category)),
 ];
 
-let projectId;
+let projectId: string;
 let activeButton = "All";
 
 const Projects = () => {
-  const [showProjectDetail, setShowProjectDetail] = useState(false);
+  const [showProjectDetail, setShowProjectDetail] = useState<boolean>(false);
   const [projectLists, setProjectLists] = useState(PROJECT_LISTS);
-  // const [buttons, setButtons] = useState(allCategories);
 
-  const filterHandler = (button) => {
+  const filterHandler = (button: string) => {
     activeButton = button;
     if (button === "All") {
       setProjectLists(PROJECT_LISTS);
@@ -34,14 +33,18 @@ const Projects = () => {
     setProjectLists(filteredProjects);
   };
 
-  const projectDetailHandler = (id) => {
+  const projectDetailHandler = (id: string) => {
     setShowProjectDetail(true);
     projectId = id;
   };
 
-  const ProjectItem = (props) => {
-    let descriptionShort = props.description.split(" ");
-    descriptionShort = descriptionShort.splice(0, 14).join(" ");
+  const ProjectItem: React.FC<{
+    id: string;
+    description: string;
+    image: any;
+    title: string;
+  }> = (props) => {
+    let descriptionShort = props.description.split(" ").splice(0, 14).join(" ");
     descriptionShort = descriptionShort + " . . .";
 
     return (

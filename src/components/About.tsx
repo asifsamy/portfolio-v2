@@ -13,7 +13,7 @@ import { Typewriter } from "react-simple-typewriter";
 import Card from "./UI/Card";
 import classes from "./About.module.css";
 
-const About = (props) => {
+const About = () => {
   return (
     <section className={classes.about} id="about">
       <Card>

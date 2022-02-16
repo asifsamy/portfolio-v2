@@ -3,7 +3,7 @@ import { Link } from "react-scroll";
 
 import classes from "./Header.module.css";
 
-const Header = (props) => {
+const Header = () => {
   // const toggleButton = document.getElementsByClassName("toggle-button")[0];
   // const navLinks = document.getElementsByClassName("nav-links")[0];
 
@@ -11,7 +11,7 @@ const Header = (props) => {
   //   navLinks.classList.toggle("active");
   // });
 
-  const [toggleMenu, setToggleMenu] = useState(false);
+  const [toggleMenu, setToggleMenu] = useState<boolean>(false);
   const [screenWidth, setScreenWidth] = useState(window.innerWidth);
 
   const toggleNavHandler = () => {
