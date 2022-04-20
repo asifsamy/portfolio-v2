@@ -47,7 +47,7 @@ export const PROJECT_LISTS = [
     source_code: "https://github.com/asifsamy/food-mensa",
     video_url: "https://youtu.be/RoOhntoVu9E",
     libraries:
-      "React, React-Helmet, React-Router, React-Icons, Context API for Cart and Authentication functionalities, Firebase for database and Hosting",
+      "Typescript, React, React-Helmet, React-Router, React-Icons, Context API for Cart and Authentication functionalities, Firebase for database and Hosting",
   },
   {
     id: "p4",
@@ -99,7 +99,7 @@ export const PROJECT_LISTS = [
     demo: "CURRENTLY BROWSING",
     source_code: "https://github.com/asifsamy/portfolio-v2",
     libraries:
-      "React, React-Icons, React-Player, EmailJS for sending email, React-Toastify for Toast Notifications, React-Scroll for smooth scrolling",
+      "React, Typescript, React-Icons, React-Player, EmailJS for sending email, React-Toastify for Toast Notifications, React-Scroll for smooth scrolling",
   },
   {
     id: "p8",
