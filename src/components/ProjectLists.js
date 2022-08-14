@@ -9,6 +9,7 @@ import customShopImg from "../assets/custom-design.png";
 import hatBazarImg from "../assets/hat-bazar.png";
 import superShopImg from "../assets/super-shop.png";
 import ohmImg from "../assets/ohm.png";
+import meetupImg from "../assets/meetup.png";
 
 export const PROJECT_LISTS = [
   {
@@ -38,7 +39,7 @@ export const PROJECT_LISTS = [
   {
     id: "p3",
     category: "Academic",
-    year: 2021,
+    year: 2022,
     title: "Mensa-App",
     image: mensaImg,
     description:
@@ -52,6 +53,20 @@ export const PROJECT_LISTS = [
   {
     id: "p4",
     category: "Personal",
+    year: 2022,
+    title: "Meetup App",
+    image: meetupImg,
+    description:
+      "This meetup application is useful to see different meetup events with address and description, registered user can add meetup event and manage as well.",
+    demo: "https://next-meetup-app-gold.vercel.app/",
+    source_code: "https://github.com/asifsamy/next-meetup-app",
+    video_url: "https://youtu.be/iw4XP9ZuLe0",
+    libraries:
+      "Fullstack Framework : NextJs, Database : MongoDB, next-auth for authentication, github and vercel is been used for deployment, etc",
+  },
+  {
+    id: "p5",
+    category: "Personal",
     year: 2021,
     title: "Real Estate",
     image: realEstateImg,
@@ -63,7 +78,7 @@ export const PROJECT_LISTS = [
       "FrontEnd Framework : React JS, Backend Framework : Django REST, Database : PostgreSQL, react-router-dom, redux, redux-thunk, react-redux, redux-devtools-extension, node-sass@4.14.1, uuid, axios, formik, yup, react-loader-spinner, djangorestframework, django-cors-headers, djangorestframework-simplejwt, Pillow, psycopg2, etc",
   },
   {
-    id: "p5",
+    id: "p6",
     category: "Academic",
     year: 2020,
     title: "Jober Desk",
@@ -75,7 +90,7 @@ export const PROJECT_LISTS = [
       "FrontEnd Framework : Angular, Backend Framework : Django REST, Database : PostgreSQL",
   },
   {
-    id: "p6",
+    id: "p7",
     category: "Academic",
     year: 2021,
     title: "Transport Germany",
@@ -89,7 +104,7 @@ export const PROJECT_LISTS = [
       "React, public transport API of DB (https://v5.db.transport.rest/api.html), Javascript, Bootstrap, and Some Others vendor",
   },
   {
-    id: "p7",
+    id: "p8",
     category: "Personal",
     year: 2022,
     title: "Portfolio",
@@ -102,7 +117,7 @@ export const PROJECT_LISTS = [
       "React, Typescript, React-Icons, React-Player, EmailJS for sending email, React-Toastify for Toast Notifications, React-Scroll for smooth scrolling",
   },
   {
-    id: "p8",
+    id: "p9",
     category: "Personal",
     year: 2018,
     title: "Hat Bazaar",
@@ -115,7 +130,7 @@ export const PROJECT_LISTS = [
       "Laravel Framwork for backend services, MySql for Database administration, javascript for frontend design, Bootstrap Template, and Some Others vendors such as for add to cart",
   },
   {
-    id: "p9",
+    id: "p10",
     category: "Academic",
     year: 2017,
     title: "Custom Shop",
@@ -128,7 +143,7 @@ export const PROJECT_LISTS = [
       "Object Orieneted PHP for backend services, MySql for Database administration. Fabric.js for design template, Stripe API for Payment issue, and Some Others vendor",
   },
   {
-    id: "p10",
+    id: "p11",
     category: "Academic",
     year: 2016,
     title: "Super Shop",
@@ -140,7 +155,7 @@ export const PROJECT_LISTS = [
       "Raw PHP for backend services, MySql for Database administration, Bootstrap template, Some Others vendor like fpdf",
   },
   {
-    id: "p11",
+    id: "p12",
     category: "Academic",
     year: 2016,
     title: "Hotel Management",
