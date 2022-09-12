@@ -16,7 +16,9 @@ import {
   SiGraphql,
   SiMysql,
   SiPostgresql,
+  SiNextdotjs,
 } from "react-icons/si";
+import { DiNodejs } from "react-icons/di";
 
 const MY_SKILLS = [
   { title: "HTML5", name: <SiHtml5 /> },
@@ -26,6 +28,8 @@ const MY_SKILLS = [
   { title: "Typescript", name: <SiTypescript /> },
   { title: "React", name: <SiReact /> },
   { title: "Redux", name: <SiRedux /> },
+  { title: "NextJs", name: <SiNextdotjs /> },
+  { title: "NodeJs", name: <DiNodejs /> },
   { title: "Python", name: <SiPython /> },
   { title: "Django REST", name: <SiDjango /> },
   { title: "GraphQL", name: <SiGraphql /> },
